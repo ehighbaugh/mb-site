@@ -1,16 +1,44 @@
+/*****************************************************/
+/*                PAGE STYLES                      */
+/*****************************************************/
 
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+/****************** INDEX PAGE ***************************/
+
+.wrapper {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.headline {
+    text-align: center;
+}
+
+.contact-line {
+    margin-top: 2em;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
 
 /************* ASSETS ******************/
 
 #mk-collage {
-    width: 400px;
+    width: 500px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.4);
 }
 
 /*****************************************************/
 /*                MEDIA QUERIES                      */
 /*****************************************************/
 
-@media (min-width: 950px){
+@media (min-width: 1000px){
+
+    /* NAVBAR */
     .navbar {
         padding: 0 10%;
         font-size: 1.2em;
