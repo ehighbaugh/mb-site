@@ -1,0 +1,27 @@
+
+
+/************* ASSETS ******************/
+
+#mk-collage {
+    width: 400px;
+}
+
+/*****************************************************/
+/*                MEDIA QUERIES                      */
+/*****************************************************/
+
+@media (min-width: 950px){
+    .navbar {
+        padding: 0 10%;
+        font-size: 1.2em;
+    }
+
+    .navbar-brand {
+        font-size: 1.4em;
+        padding-right: 2em;
+    }
+
+    .nav-item {
+        padding: 0 1em;
+    }
+}
