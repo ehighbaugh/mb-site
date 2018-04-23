@@ -21,6 +21,7 @@
     margin-top: 2em;
 }
 
+/*Fix for bootstrap collapsible navbar closing as soon as it opens*/
 .navbar-collapse.collapse.in {
     display: block!important;
   }
