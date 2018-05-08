@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +9,22 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Questrial" rel="stylesheet">
     <title>Find Mikelle Biggs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <!-- BEGIN NAVBAR-->
-    <div id="navbar-placeholder"></div>
-    <script>
-        $("#navbar-placeholder").load("/navbar.html")
-    </script>
-    <!-- END NAVBAR -->
     
+    <script>
+        jQuery(document).ready(function(){
+            $("#navbar-placeholder").load("/navbar.html");
+        });
+    </script>
+    
+    <div id="navbar-placeholder"></div>
+
+    <!-- END NAVBAR -->
+
     <div class="wrapper">
         <div class="container">
             <div class="row">
@@ -55,7 +61,8 @@
         </div>
         
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+ 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
